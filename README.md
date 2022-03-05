@@ -3,7 +3,7 @@ A demonstration of how to create an API and how consume data from it.
 
 In this repository, I intend to show how to create a model, how to make inferences on it, how to embed the model in an API and how to create a simple webpage that makes requests to the API consuming its content.
 
-## This repository contains three parts:
+## This repository contains four parts:
 
 ### PART 1 - Training your model
 Run the train.py script. The model will be saved in the folder output/model-best

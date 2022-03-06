@@ -63,7 +63,7 @@ class Personal_Info(BaseModel):
     zipcode: int
 
 @app.post("/register_person")
-async def register(info: Personal_Info):
+def register(info: Personal_Info):
     '''
     The register_person route
     Used to demonstrate how to make a POST request
@@ -79,7 +79,7 @@ class Report(BaseModel):
     text: str
 
 @app.post("/analyse_report")
-async def analyse_report(report: Report):
+def analyse_report(report: Report):
     '''
     The analyse_report route
     Used to demonstrate how to make a POST request passing a report and receiving the inference result

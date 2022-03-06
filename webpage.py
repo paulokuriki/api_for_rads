@@ -45,20 +45,23 @@ def call_analyse(report: str):
 
 # creates the HTML objects
 st.title('AI Report Classifier')
-st.header("Welcome to the NLP Report Classifier")
+st.header("Welcome to the Chest X-Ray NLP Report Classifier")
 st.write("This webpage was created using **Streamlit** to demonstrate how to request inferences from an API.")
 
 with st.form("my_form"):
     # input text box
-    text = st.text_area('Enter your report text below then click the Analyse Report button.', '')
+    text = st.text_area('Enter a chest x-ray report below, then click the Analyse Report button.', '')
 
     # analyze button
     submitted = st.form_submit_button('Analyse Report')
 
-
 if submitted:
     st.subheader("Result")
     call_analyse(text)
+else:
+    st.warning(
+        "The first time you run the Analyse request, it can take some seconds to wake up the Heroku API. If the result "
+        "delays too much, reload the page. After the first call, the API responds immediately.")
 
 st.write('')
 st.write('')

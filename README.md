@@ -37,14 +37,15 @@ report is normal or abnormal.
 
 ### API Demo
 
-You can access the API in this address:
+You can test the model at the webpage:
+
+https://normal-report.herokuapp.com/
+
+
+The API consumed by the webpage can be found here:
 
 https://api-normal-report.herokuapp.com/docs
 
-
-Or you can access the webpage interface here:
-
-https://normal-report.herokuapp.com/
 
 ***
 

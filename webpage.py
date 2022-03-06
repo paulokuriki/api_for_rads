@@ -18,7 +18,7 @@ def call_analyse(*args: tuple):
     '''
     text = args[0]
 
-    URL = f"http://{c.API_HOST}:{c.API_PORT}/analyse_report"
+    URL = f"{c.API_HOST}:{c.API_PORT}/analyse_report"
     json = {'text': text}
 
     # makes a POST request to the API

@@ -35,8 +35,6 @@ report is normal or abnormal.
 
 ## Demo
 
-### API Demo
-
 You can test the model at the webpage:
 
 https://normal-report.herokuapp.com/
@@ -49,7 +47,32 @@ https://api-normal-report.herokuapp.com/docs
 
 ***
 
-## Thanks
+## Acknowledgments
+
+**We utilized the radiology reports from the Indiana University Chest X-ray Dataset for this demonstration.**
+
+* Reference: Demner-Fushman D, Kohli MD, Rosenman MB, Shooshan SE, Rodriguez L, Antani S, Thoma GR, McDonald CJ.
+Preparing a collection of radiology examinations for distribution and retrieval. J Am Med Inform Assoc. 2016
+Mar;23(2):304-10. doi: 10.1093/jamia/ocv080. Epub 2015 Jul 1.
+
+**Hands-on AI for Non-Coders - Basics of Information Extraction from Radiology Reports**
+* Walter F. Wiggins, MD, PhD - Duke University Hospital, Durham, NC, USA
+* Felipe Kitamura, MD - UNIFESP, Sao Paulo, Brasil
+* Igor Santos, MD - UNIFESP, Sao Paulo, Brasil
+* Luciano M. Prevedello, MD, MPH - Ohio State University, Columbus, OH, USA
+
+https://github.com/wfwiggins/RSNA-NLP-2020/blob/master/Hands_on_NLP.ipynb
+
+
+**Building a Text Classifier with Spacy 3.0**
+
+Phil S - Published in Analytics Vidhya
+
+https://medium.com/analytics-vidhya/building-a-text-classifier-with-spacy-3-0-dd16e9979a
+
+***
+
+## Thank you
 Paulo Kuriki
 
 https://www.linkedin.com/in/paulokuriki/

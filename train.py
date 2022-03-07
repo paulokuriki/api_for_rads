@@ -1,30 +1,6 @@
 '''
 The Train Script
-
 Used to train the spacy model
-
---- Data ---
-The data is obtained from the National Library of Medicine's Open-i service. We utilize the radiology reports from the
-Indiana University Chest X-ray Dataset for this demonstration.
-
-Reference: Demner-Fushman D, Kohli MD, Rosenman MB, Shooshan SE, Rodriguez L, Antani S, Thoma GR, McDonald CJ.
-Preparing a collection of radiology examinations for distribution and retrieval. J Am Med Inform Assoc. 2016
-Mar;23(2):304-10. doi: 10.1093/jamia/ocv080. Epub 2015 Jul 1.
-
-- Extracting the Data ----
-Hands-on AI for Non-Coders
-Basics of Information Extraction from Radiology Reports
-
-Developers
-Walter F. Wiggins, MD, PhD - Duke University Hospital, Durham, NC, USA
-Felipe Kitamura, MD - UNIFESP, Sao Paulo, Brasil
-Igor Santos, MD - UNIFESP, Sao Paulo, Brasil
-Luciano M. Prevedello, MD, MPH - Ohio State University, Columbus, OH, USA
-
-https://github.com/wfwiggins/RSNA-NLP-2020/blob/master/Hands_on_NLP.ipynb
-
-Special thanks for the analytics-vidhya post
-https://medium.com/analytics-vidhya/building-a-text-classifier-with-spacy-3-0-dd16e9979a
 '''
 
 import os

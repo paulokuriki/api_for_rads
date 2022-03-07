@@ -50,7 +50,7 @@ def say_hello(name: str, birth_city: Optional[str] = None):
     :return a hello message:
     '''
     if birth_city:
-        return f"Hello, {name}. {birth_city} is a beautyful city"
+        return f"Hello, {name}. {birth_city} is a beautiful city"
     else:
         return f"Hello, {name}."
 

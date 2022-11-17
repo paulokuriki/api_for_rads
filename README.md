@@ -1,6 +1,6 @@
 # API for Radiologists
 
-A demonstration of how to create an API and how consume data from it.
+A demonstration of how to create an API and how to consume data from it.
 
 In this repository, I'll show you how to train an AI model, how to make inferences on it, how to embed the model in an 
 API and how to create a simple webpage that makes requests to the API consuming its inferences.
@@ -13,7 +13,7 @@ API and how to create a simple webpage that makes requests to the API consuming 
 
 Run the `train.py` script. The model will be saved in the folder output/model-best.
 
-This step is optional, as the model was supplied in this repository
+This step is optional, as the model is supplied already trained in this repository
 
 ### PART 2 - Running inferences on your model
 
@@ -28,7 +28,7 @@ OR, consult the API documentation on the page: http://localhost:8000/docs
 
 From your terminal, run the command: `streamlit run webpage.py`
 
-A web page will be loaded in your browser where you can type any Chest X-Ray Report and the API will try to tell you if the
+A webpage will be loaded in your browser where you can type any Chest X-Ray Report and the API will classify if the
 report is normal or abnormal.
 
 ***
@@ -45,11 +45,18 @@ The API consumed by the webpage can be found here:
 https://api-normal-report.herokuapp.com/docs
 
 
+## Bonus
+
+Do you know it is super easy to run inferences in a Google Spreadsheet? Check it out in the link below
+
+https://docs.google.com/spreadsheets/d/1nXk43KCqdozGnKklcs_C-knNhaMhDiwuSZOpqbFTRDA/edit?usp=sharing
+
+
 ***
 
 ## Acknowledgments
 
-**We utilized the radiology reports from the Indiana University Chest X-ray Dataset for this demonstration.**
+**We used the radiology report dataset from the Indiana University Chest X-ray Dataset for this demonstration.**
 
 * Reference: Demner-Fushman D, Kohli MD, Rosenman MB, Shooshan SE, Rodriguez L, Antani S, Thoma GR, McDonald CJ.
 Preparing a collection of radiology examinations for distribution and retrieval. J Am Med Inform Assoc. 2016

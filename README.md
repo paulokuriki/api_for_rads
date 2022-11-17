@@ -47,7 +47,7 @@ https://api-normal-report.herokuapp.com/docs
 
 ## Bonus
 
-Do you know it is super easy to run inferences in a Google Spreadsheet? Check it out in the link below
+Did you know it is super easy to run inferences from a Google Sheet? Check it out:
 
 https://docs.google.com/spreadsheets/d/1nXk43KCqdozGnKklcs_C-knNhaMhDiwuSZOpqbFTRDA/edit?usp=sharing
 
